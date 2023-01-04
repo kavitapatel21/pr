@@ -1,0 +1,914 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HT Portfolio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-22 08:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.1; wp-5.1.1"
+
+#: includes/widgets/htportfolio_gallery_addons.php:108
+#: includes/widgets/htportfolio_gallery_addons.php:124
+#: includes/widgets/htportfolio_gallery_addons.php:139
+#: includes/widgets/htportfolio_portfolio_addons.php:121
+#: includes/widgets/htportfolio_portfolio_addons.php:137
+#: includes/widgets/htportfolio_portfolio_addons.php:151
+msgid "1"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:109
+#: includes/widgets/htportfolio_gallery_addons.php:125
+#: includes/widgets/htportfolio_gallery_addons.php:140
+#: includes/widgets/htportfolio_portfolio_addons.php:122
+#: includes/widgets/htportfolio_portfolio_addons.php:138
+#: includes/widgets/htportfolio_portfolio_addons.php:152
+msgid "2"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:110
+#: includes/widgets/htportfolio_gallery_addons.php:126
+#: includes/widgets/htportfolio_gallery_addons.php:141
+#: includes/widgets/htportfolio_portfolio_addons.php:123
+#: includes/widgets/htportfolio_portfolio_addons.php:139
+#: includes/widgets/htportfolio_portfolio_addons.php:153
+msgid "3"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:111
+#: includes/widgets/htportfolio_gallery_addons.php:127
+#: includes/widgets/htportfolio_gallery_addons.php:142
+#: includes/widgets/htportfolio_portfolio_addons.php:124
+#: includes/widgets/htportfolio_portfolio_addons.php:140
+#: includes/widgets/htportfolio_portfolio_addons.php:154
+msgid "4"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:112
+#: includes/widgets/htportfolio_portfolio_addons.php:125
+msgid "5"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:113
+#: includes/widgets/htportfolio_portfolio_addons.php:126
+msgid "6"
+msgstr ""
+
+#: htportfolio.php:92
+msgid ""
+"<strong>HT Portfolio Addons for Elementor</strong> Requires Elementor plugin "
+"to be active. Please activate Elementor to continue."
+msgstr ""
+
+#: htportfolio.php:118
+msgid ""
+"<strong>HT Portfolio Plugin</strong> Requires Cmb2 plugin to be active. "
+"Please activate Cmb2 to continue."
+msgstr ""
+
+#: htportfolio.php:125
+#, php-format
+msgid ""
+"<strong>htportfolio Addons for Cmb2</strong> requires %1$s\"Cmb2\"%2$s "
+"plugin to be installed and activated. Please install Cmb2 to continue."
+msgstr ""
+
+#: htportfolio.php:99
+#, php-format
+msgid ""
+"<strong>htportfolio Addons for Elementor</strong> requires "
+"%1$s\"Elementor\"%2$s plugin to be installed and activated. Please install "
+"Elementor to continue."
+msgstr ""
+
+#: htportfolio.php:119
+msgid "Activate CMB2"
+msgstr ""
+
+#: htportfolio.php:93
+msgid "Activate Elementor"
+msgstr ""
+
+#: admin/htportfolio_custom-metabox.php:52
+#: admin/htportfolio_custom-metabox.php:77
+#: admin/htportfolio_custom-metabox.php:103
+msgid "Add Another Entry"
+msgstr ""
+
+#: admin/htportfolio_custom-metabox.php:49
+#: admin/htportfolio_custom-metabox.php:74
+#: admin/htportfolio_custom-metabox.php:100
+msgid "Add First Entry"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:15
+#: admin/htportfolio_custom-post-type.php:65
+msgid "Add New"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:14
+msgid "Add New Gallery"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:64
+#: admin/htportfolio_custom-post-type.php:145
+msgid "Add New Item"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:150
+msgid "Add or remove items"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:373
+#: includes/widgets/htportfolio_gallery_addons.php:678
+#: includes/widgets/htportfolio_portfolio_addons.php:444
+msgid "Alignment"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:73
+#: includes/widgets/htportfolio_portfolio_addons.php:84
+msgid "All Button Text"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:141
+msgid "All Items"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:64
+#: includes/widgets/htportfolio_portfolio_addons.php:75
+msgid "All Menu Show/Hide"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:153
+#: includes/widgets/htportfolio_portfolio_addons.php:165
+msgid "Ascending"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:498
+#: includes/widgets/htportfolio_portfolio_addons.php:645
+msgid "Box Bg Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:788
+#: includes/widgets/htportfolio_portfolio_addons.php:681
+msgid "Box Bg Hover Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:692
+msgid "Box Bg Hover Color Two"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:330
+#: includes/widgets/htportfolio_portfolio_addons.php:401
+#: includes/widgets/htportfolio_portfolio_addons.php:656
+msgid "Box Border"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:703
+msgid "Box Border Hover"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:422
+#: includes/widgets/htportfolio_portfolio_addons.php:493
+msgid "Button BG Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:438
+#: includes/widgets/htportfolio_gallery_addons.php:773
+#: includes/widgets/htportfolio_portfolio_addons.php:509
+#: includes/widgets/htportfolio_portfolio_addons.php:607
+msgid "Button Border"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:407
+#: includes/widgets/htportfolio_portfolio_addons.php:478
+msgid "Button Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:757
+#: includes/widgets/htportfolio_portfolio_addons.php:591
+msgid "Button Hover BG Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:742
+#: includes/widgets/htportfolio_portfolio_addons.php:576
+msgid "Button Hover Color"
+msgstr ""
+
+#: htportfolio.php:157 htportfolio.php:218
+#: admin/htportfolio_custom-post-type.php:140
+msgid "Categories"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:640
+#: includes/widgets/htportfolio_portfolio_addons.php:994
+msgid "Category Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:655
+msgid "Category Hover Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:1018
+msgid "Category Margin"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:1030
+msgid "Category Padding"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:381
+#: includes/widgets/htportfolio_gallery_addons.php:686
+#: includes/widgets/htportfolio_portfolio_addons.php:452
+#: includes/widgets/htportfolio_portfolio_addons.php:1073
+msgid "Center"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:151
+msgid "Choose from the most used"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:1049
+msgid "Content Bg Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:1065
+msgid "Content Box Alignment"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:1091
+msgid "Content Box Margin"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:1103
+msgid "Content Box Padding"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:1042
+msgid "Content Box Style"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:897
+msgid "Content Style"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:154
+#: includes/widgets/htportfolio_portfolio_addons.php:166
+msgid "Descending"
+msgstr ""
+
+#: admin/plugin-options.php:67
+msgid "Description Image Show/Hide"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:100
+msgid "Display Option"
+msgstr ""
+
+#: admin/plugin-options.php:68 admin/plugin-options.php:79
+#: admin/plugin-options.php:90 admin/plugin-options.php:101
+#: admin/plugin-options.php:112
+msgid "Dropdown Options"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:17
+msgid "Edit Gallery"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:67
+#: admin/htportfolio_custom-post-type.php:146
+msgid "Edit Item"
+msgstr ""
+
+#: admin/htportfolio_custom-metabox.php:65
+#: admin/htportfolio_custom-metabox.php:90
+msgid "Enter Address"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:76
+#: includes/widgets/htportfolio_portfolio_addons.php:87
+#: includes/widgets/htportfolio_portfolio_addons.php:255
+#: includes/widgets/htportfolio_portfolio_addons.php:345
+msgid "Enter All Button Text"
+msgstr ""
+
+#: admin/htportfolio_custom-metabox.php:59
+#: admin/htportfolio_custom-metabox.php:84
+msgid "Enter Name"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:23
+msgid "Featured Image"
+msgstr ""
+
+#: admin/plugin-options.php:78
+msgid "Featured Image Show/Hide"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:306
+#: includes/widgets/htportfolio_portfolio_addons.php:377
+msgid "Filter Box  Style"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:385
+msgid "Filter Box BG COlor"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:314
+msgid "Filter Box BG Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:735
+#: includes/widgets/htportfolio_portfolio_addons.php:569
+msgid "Filter Button Hover/Acitive Style"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:400
+#: includes/widgets/htportfolio_portfolio_addons.php:471
+msgid "Filter Button Style"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:31
+#: admin/htportfolio_custom-post-type.php:81
+msgid "Filter items list"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:45
+#: includes/widgets/htportfolio_portfolio_addons.php:56
+msgid "Filter Menu Show/Hide"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:358
+msgid "Filter Menu Style"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:31
+msgid "Filtter Content"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:38
+#: includes/widgets/htportfolio_portfolio_addons.php:49
+msgid "Filtter Options"
+msgstr ""
+
+#: htportfolio.php:151 admin/htportfolio_custom-post-type.php:10
+#: admin/htportfolio_custom-post-type.php:11
+#: admin/htportfolio_custom-post-type.php:35
+#: includes/widgets/htportfolio_gallery_addons.php:31
+msgid "Gallery"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:12
+msgid "Gallery Archives"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:29
+msgid "Gallery list"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:30
+msgid "Gallery list navigation"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:287
+msgid "Gallery Style"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:189
+msgid "Gallery Title Show/Hide"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:729
+#: includes/widgets/htportfolio_portfolio_addons.php:563
+#: includes/widgets/htportfolio_portfolio_addons.php:667
+#: includes/widgets/htportfolio_portfolio_addons.php:841
+#: includes/widgets/htportfolio_portfolio_addons.php:1118
+msgid "Hover"
+msgstr ""
+
+#. Author of the plugin
+msgid "HT Plugins"
+msgstr ""
+
+#. Name of the plugin
+#: admin/admin-init.php:8
+msgid "HT Portfolio"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:15
+msgid "HT Portfolio : Gallery"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:15
+msgid "HT Portfolio : Portfolio"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://demo.shrimpthemes.com/5/vargas"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://htplugins.com/"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:203
+#: includes/widgets/htportfolio_gallery_addons.php:229
+#: includes/widgets/htportfolio_gallery_addons.php:245
+#: includes/widgets/htportfolio_gallery_addons.php:271
+#: includes/widgets/htportfolio_portfolio_addons.php:240
+#: includes/widgets/htportfolio_portfolio_addons.php:278
+#: includes/widgets/htportfolio_portfolio_addons.php:304
+#: includes/widgets/htportfolio_portfolio_addons.php:330
+msgid "Icon"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:552
+#: includes/widgets/htportfolio_gallery_addons.php:841
+#: includes/widgets/htportfolio_portfolio_addons.php:771
+#: includes/widgets/htportfolio_portfolio_addons.php:885
+msgid "Icon Border"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:585
+#: includes/widgets/htportfolio_portfolio_addons.php:804
+msgid "Icon Height"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:215
+#: includes/widgets/htportfolio_gallery_addons.php:257
+#: includes/widgets/htportfolio_portfolio_addons.php:264
+#: includes/widgets/htportfolio_portfolio_addons.php:316
+msgid "Icon image"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:172
+msgid "Icon Options"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:180
+msgid "Icon Show/Hide"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:571
+#: includes/widgets/htportfolio_portfolio_addons.php:790
+msgid "Icon Width"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:204
+#: includes/widgets/htportfolio_gallery_addons.php:246
+#: includes/widgets/htportfolio_portfolio_addons.php:241
+#: includes/widgets/htportfolio_portfolio_addons.php:305
+msgid "Image"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:199
+#: includes/widgets/htportfolio_portfolio_addons.php:236
+msgid "Image popup Icon"
+msgstr ""
+
+#: admin/htportfolio_custom-metabox.php:67
+msgid "insert Info here"
+msgstr ""
+
+#: admin/htportfolio_custom-metabox.php:92
+msgid "insert info here"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:27
+#: admin/htportfolio_custom-post-type.php:77
+msgid "Insert into item"
+msgstr ""
+
+#: admin/htportfolio_custom-metabox.php:86
+msgid "insert Second here"
+msgstr ""
+
+#: admin/htportfolio_custom-metabox.php:61
+msgid "insert title here"
+msgstr ""
+
+#: admin/htportfolio_custom-metabox.php:42
+msgid "insert video link. ex-www.youtube.com/watch?v=TLnmb07WQ-s"
+msgstr ""
+
+#: htportfolio.php:126
+msgid "Install Cmb2"
+msgstr ""
+
+#: htportfolio.php:100
+msgid "Install Elementor"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:86
+msgid "Item  Options"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:61
+msgid "Item Archives"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:637
+msgid "Item Box BG Style"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:781
+#: includes/widgets/htportfolio_portfolio_addons.php:673
+msgid "Item Box Hover Style"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:491
+#: includes/widgets/htportfolio_portfolio_addons.php:619
+msgid "Item Box Style"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:633
+#: includes/widgets/htportfolio_portfolio_addons.php:987
+msgid "Item Category Style"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:161
+#: includes/widgets/htportfolio_portfolio_addons.php:173
+msgid "Item Gutter"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:803
+#: includes/widgets/htportfolio_portfolio_addons.php:847
+msgid "Item Link Hover Style"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:514
+#: includes/widgets/htportfolio_portfolio_addons.php:733
+msgid "Item Link Style"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:915
+msgid "Item Title Style"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:79
+#: admin/htportfolio_custom-post-type.php:156
+msgid "Items list"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:80
+#: admin/htportfolio_custom-post-type.php:157
+msgid "Items list navigation"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:377
+#: includes/widgets/htportfolio_gallery_addons.php:682
+#: includes/widgets/htportfolio_portfolio_addons.php:448
+#: includes/widgets/htportfolio_portfolio_addons.php:1069
+msgid "Left"
+msgstr ""
+
+#: admin/htportfolio_custom-metabox.php:51
+msgid "Left Item {#}"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:226
+msgid "Link"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:205
+msgid "Link Button Options"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:252
+msgid "Link Button Text"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:536
+#: includes/widgets/htportfolio_portfolio_addons.php:755
+msgid "Link Icon BG Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:521
+#: includes/widgets/htportfolio_portfolio_addons.php:740
+msgid "Link Icon Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:825
+#: includes/widgets/htportfolio_portfolio_addons.php:869
+msgid "Link Icon Hover BG Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:810
+#: includes/widgets/htportfolio_portfolio_addons.php:854
+msgid "Link Icon Hover Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:715
+msgid "Link Icon Style"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:212
+msgid "Link/Popup Show/Hide"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:16
+msgid "New Gallery"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:66
+msgid "New Item"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:144
+msgid "New Item Name"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:155
+msgid "No items"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:300
+#: includes/widgets/htportfolio_portfolio_addons.php:371
+#: includes/widgets/htportfolio_portfolio_addons.php:631
+#: includes/widgets/htportfolio_portfolio_addons.php:727
+#: includes/widgets/htportfolio_portfolio_addons.php:909
+msgid "Normal"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:154
+msgid "Not Found"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:21
+#: admin/htportfolio_custom-post-type.php:71
+msgid "Not found"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:22
+#: admin/htportfolio_custom-post-type.php:72
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:135
+#: includes/widgets/htportfolio_portfolio_addons.php:147
+msgid "Number Of Columns Displayed (Large Mobile)"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:120
+#: includes/widgets/htportfolio_portfolio_addons.php:133
+msgid "Number Of Columns Displayed (Tab)"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:149
+#: includes/widgets/htportfolio_portfolio_addons.php:161
+msgid "Order By"
+msgstr ""
+
+#: admin/htportfolio_custom-metabox.php:14
+msgid "Page Options"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:13
+msgid "Parent Gallery:"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:142
+msgid "Parent Item"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:62
+#: admin/htportfolio_custom-post-type.php:143
+msgid "Parent Item:"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:152
+msgid "Popular Items"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:225
+msgid "Popup"
+msgstr ""
+
+#: admin/htportfolio_custom-metabox.php:41
+msgid "Popup Video"
+msgstr ""
+
+#: htportfolio.php:212 admin/htportfolio_custom-post-type.php:59
+#: admin/htportfolio_custom-post-type.php:60
+#: admin/htportfolio_custom-post-type.php:84
+msgid "Portfolio"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:193
+msgid "Portfolio Category Show/Hide"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:73
+msgid "Portfolio Image"
+msgstr ""
+
+#: admin/plugin-options.php:100
+msgid "Portfolio Info Show/Hide"
+msgstr ""
+
+#: admin/htportfolio_custom-metabox.php:36
+msgid "Portfolio Metaboxes"
+msgstr ""
+
+#: admin/plugin-options.php:37
+msgid "Portfolio Options"
+msgstr ""
+
+#: admin/plugin-options.php:89
+#: includes/widgets/htportfolio_portfolio_addons.php:184
+msgid "Portfolio Title Show/Hide"
+msgstr ""
+
+#. Description of the plugin
+msgid "Portfolio WordPress Plugins"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:63
+msgid "Portfolioes"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:8
+msgctxt "Post Type General Name"
+msgid "Gallery"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:57
+msgctxt "Post Type General Name"
+msgid "Portfolio"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:9
+msgctxt "Post Type Singular Name"
+msgid "Gallery"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:58
+msgctxt "Post Type Singular Name"
+msgid "Portfolio"
+msgstr ""
+
+#: admin/plugin-options.php:41
+msgid "Pro Theme using this plugins."
+msgstr ""
+
+#: admin/plugin-options.php:111
+msgid "Related Post Show/Hide"
+msgstr ""
+
+#: admin/htportfolio_custom-metabox.php:53
+#: admin/htportfolio_custom-metabox.php:78
+#: admin/htportfolio_custom-metabox.php:104
+msgid "Remove Entry"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:25
+#: admin/htportfolio_custom-post-type.php:75
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:385
+#: includes/widgets/htportfolio_gallery_addons.php:690
+#: includes/widgets/htportfolio_portfolio_addons.php:456
+#: includes/widgets/htportfolio_portfolio_addons.php:1077
+msgid "Right"
+msgstr ""
+
+#: admin/htportfolio_custom-metabox.php:76
+#: admin/htportfolio_custom-metabox.php:102
+msgid "Right Item {#}"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:20
+msgid "Search Gallery"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:70
+msgid "Search Item"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:153
+msgid "Search Items"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:54
+#: includes/widgets/htportfolio_portfolio_addons.php:65
+msgid "Select Item Category"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:221
+msgid "Select Option"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:37
+msgid "Select Style"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:149
+msgid "Separate items with commas"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:24
+#: admin/htportfolio_custom-post-type.php:74
+msgid "Set featured image"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:93
+#: includes/widgets/htportfolio_portfolio_addons.php:106
+msgid "Show All Item Number"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:104
+#: includes/widgets/htportfolio_portfolio_addons.php:117
+msgid "Show Columns"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:41
+msgid "Style One"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:42
+msgid "Style Two"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:138
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:139
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:242
+#: includes/widgets/htportfolio_portfolio_addons.php:306
+msgid "Text"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:938
+msgid "Title Bg Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:922
+msgid "Title Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:1124
+msgid "Title Hover Color"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:962
+msgid "Title Margin"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:974
+msgid "Title Padding"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:18
+msgid "Update Gallery"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:68
+#: admin/htportfolio_custom-post-type.php:147
+msgid "Update Item"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:28
+#: admin/htportfolio_custom-post-type.php:78
+msgid "Uploaded to this item"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:26
+#: admin/htportfolio_custom-post-type.php:76
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:342
+msgid "Video Button Text"
+msgstr ""
+
+#: includes/widgets/htportfolio_gallery_addons.php:241
+#: includes/widgets/htportfolio_portfolio_addons.php:300
+msgid "Video popup Icon"
+msgstr ""
+
+#: includes/widgets/htportfolio_portfolio_addons.php:290
+msgid "Video Popup Options"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:19
+msgid "View Gallery"
+msgstr ""
+
+#: admin/htportfolio_custom-post-type.php:69
+#: admin/htportfolio_custom-post-type.php:148
+msgid "View Item"
+msgstr ""

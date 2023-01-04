@@ -1,0 +1,18 @@
+ul.htportfolio_pro_tab li {
+    width: 23%;
+    display: inline-block;
+    max-width: 23%;
+    overflow: hidden;
+    margin: 15px;
+}
+
+ul.htportfolio_pro_tab li img {
+    max-width: 100%;
+    width: 100%;
+}
+ul.htportfolio_pro_tab li a {
+	color: #000;
+}
+ul.htportfolio_pro_tab li a:hover {
+	color: #0073aa;
+}

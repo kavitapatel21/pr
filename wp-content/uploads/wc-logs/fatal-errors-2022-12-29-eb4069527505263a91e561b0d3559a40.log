@@ -1,0 +1,15 @@
+2022-12-29T05:17:02+00:00 CRITICAL Uncaught Error: Call to undefined function my_update_attachment() in C:\xampp\htdocs\pr\wp-content\themes\smartic-child\functions.php:238
+Stack trace:
+#0 C:\xampp\htdocs\pr\wp-includes\class-wp-hook.php(307): create_custom_post('')
+#1 C:\xampp\htdocs\pr\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\pr\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\pr\wp-settings.php(587): do_action('init')
+#4 C:\xampp\htdocs\pr\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pr\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pr\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\pr\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\pr\wp-content\themes\smartic-child\functions.php on line 238
+
+2022-12-29T07:05:11+00:00 CRITICAL syntax error, unexpected 'gallery' (T_STRING), expecting ']' in C:\xampp\htdocs\pr\wp-content\themes\smartic-child\functions.php on line 246
+

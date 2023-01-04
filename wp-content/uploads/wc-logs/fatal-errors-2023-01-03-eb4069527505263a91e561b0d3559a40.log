@@ -1,0 +1,15 @@
+2023-01-03T10:40:36+00:00 CRITICAL Uncaught Error: Call to a member function saveXML() on null in C:\xampp\htdocs\pr\custom-cron.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\pr\custom-cron.php on line 14
+
+2023-01-03T10:49:35+00:00 CRITICAL Uncaught Error: Call to undefined function string() in C:\xampp\htdocs\pr\custom-cron.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\pr\custom-cron.php on line 17
+
+2023-01-03T10:51:42+00:00 CRITICAL Uncaught Error: Call to a member function asXML() on bool in C:\xampp\htdocs\pr\custom-cron.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\pr\custom-cron.php on line 20
+

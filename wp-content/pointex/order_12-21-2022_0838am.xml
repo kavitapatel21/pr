@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Export_Bfast_POINTEX>
+	<Entete_Commande>
+		<Id_commande>17030</Id_commande>
+		<emporter>1</emporter>
+		<ID_Point_de_vente>XX0001</ID_Point_de_vente>
+		<etat_commande>on-hold</etat_commande>
+		<Date_Commande>0</Date_Commande>
+		<Date_heure_Commande>0</Date_heure_Commande>
+		<Durée_Saisie_Commande>0</Durée_Saisie_Commande>
+		<Prix_HT_Brut>1699.03</Prix_HT_Brut>
+		<Prix_HT_Net>1699.03</Prix_HT_Net>
+		<Prix_TTC_Brut>1850.22</Prix_TTC_Brut>
+		<Prix_TTC_NET>1850.22</Prix_TTC_NET>
+		<DiscountOrder_TTC>0</DiscountOrder_TTC>
+		<DiscountItems_TTC>0</DiscountItems_TTC>
+		<ID_Carte_fidélité>0</ID_Carte_fidélité>
+		<HandlingMessage></HandlingMessage>
+		<ShippingMessage></ShippingMessage>
+	<Client>
+		<Numadresse>0</Numadresse>
+		<Nomadresse>commande</Nomadresse>
+		<identifiant>kavita.patel@plutustec.com</identifiant>
+		<nom>kavita patel</nom>
+		<prenom>kavita</prenom>
+		<societe>plutus</societe>
+		<numvoie>309,vandematram</numvoie>
+		<adresse1>309,vandematram</adresse1>
+		<adresse2>gota</adresse2>
+		<adresse3>0</adresse3>
+		<batiment>gota</batiment>
+		<escalier>0</escalier>
+		<etage>0</etage>
+		<porte>0</porte>
+		<code_porte>0</code_porte>
+		<code_postal>303032</code_postal>
+		<ville>ahmedabad</ville>
+		<pays>IN</pays>
+		<telephone_fixe>9099867656</telephone_fixe>
+		<telephone_mobile>9099867656</telephone_mobile>
+	</Client>
+	</Entete_Commande>
+	<Ligne_commande>
+		<ID_ordre_ligne_commande>0</ID_ordre_ligne_commande>
+		<ID_Article>practical-leather-bench-72002698</ID_Article>
+		<TVA>0</TVA>
+		<Prix_HT_Brut>187.09</Prix_HT_Brut>
+		<Prix_TTC_Brut>187.09</Prix_TTC_Brut>
+		<Qté>1</Qté>
+		<Pourc_Remise>0</Pourc_Remise>
+		<Qté_Offert_Ligne>0</Qté_Offert_Ligne>
+		<Prix_HT_Net>187.09</Prix_HT_Net>
+		<Prix_TTC_NET>187.09</Prix_TTC_NET>
+		<Message_Prod>No Comment</Message_Prod>
+	</Ligne_commande>
+	<Ligne_commande>
+		<ID_ordre_ligne_commande>1</ID_ordre_ligne_commande>
+		<ID_Article>lightweight-plastic-table-28348771</ID_Article>
+		<TVA>151.19</TVA>
+		<Prix_HT_Brut>1511.94</Prix_HT_Brut>
+		<Prix_TTC_Brut>1663.13</Prix_TTC_Brut>
+		<Qté>2</Qté>
+		<Pourc_Remise>0</Pourc_Remise>
+		<Qté_Offert_Ligne>0</Qté_Offert_Ligne>
+		<Prix_HT_Net>1511.94</Prix_HT_Net>
+		<Prix_TTC_NET>1663.13</Prix_TTC_NET>
+		<Message_Prod>No Comment</Message_Prod>
+	</Ligne_commande>
+	<Accompagnement>
+		<ID_ordre_ligne_commande>0</ID_ordre_ligne_commande>
+		<ID_Article>0</ID_Article>
+		<TVA>0</TVA>
+		<Prix_HT_Brut>0</Prix_HT_Brut>
+		<Prix_TTC_Brut>0</Prix_TTC_Brut>
+		<Qté>0</Qté>
+		<Ordre_Accompagnement>0</Ordre_Accompagnement>
+		<Prix_HT_Net>0</Prix_HT_Net>
+		<Prix_TTC_Net>0</Prix_TTC_Net>
+		<Nom_Menu>0</Nom_Menu>
+		<Nom_Accompagnement>0</Nom_Accompagnement>
+		<Message_Prod>0</Message_Prod>
+	</Accompagnement>
+	<Paiement>
+		<Montant_réglé>0</Montant_réglé>
+		<Mode_Reglement>Cash on delivery</Mode_Reglement>
+		<Montant_pme_utilisé>0</Montant_pme_utilisé>
+	</Paiement>
+		<sql_reponse>0</sql_reponse>
+		<alert_internal>Opération terminée avec succès</alert_internal>
+</Export_Bfast_POINTEX>
+

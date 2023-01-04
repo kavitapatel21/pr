@@ -1,0 +1,2 @@
+22-12-2022 11:37:43 - ERROR - 7.5.8 - 76.6 MB/2 GB - [cron] > Blocked by transient newsletter_main_engine set 0 seconds ago by C:\xampp\htdocs\pr/;DESKTOP-4SHF49G
+27-12-2022 04:05:06 - ERROR - 7.5.8 - 77.6 MB/2 GB - [cron] > Blocked by transient newsletter_main_engine set 0 seconds ago by C:\xampp\htdocs\pr/;DESKTOP-4SHF49G

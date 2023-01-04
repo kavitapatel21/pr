@@ -1,0 +1,37 @@
+/*
+Theme Name: twentytwentyone Child
+Theme URI:  https://www.wpserveur.net
+Author:     WPServeur
+Author URI: https://www.wpserveur.net
+Template:   twentytwentyone
+Version:    1.0
+License:    GNU General Public License v2 or later
+*/
+
+
+.child {
+    width: 100%;
+    z-index: 1000;
+    border: 3px solid black;
+    margin: 3px;
+}
+
+.widgets {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-center {
+    border: 3px solid black;
+    align-items: center !important;
+    justify-content: center  !important;
+    width: 20%;
+}
+
+h4{
+    color: black !important;
+}
+
+#ship-to-different-address-checkbox {
+    display: inline;
+}
