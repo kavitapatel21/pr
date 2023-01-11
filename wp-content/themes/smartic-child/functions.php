@@ -257,15 +257,35 @@ function create_custom_post()
             $post_id = get_the_ID();
 
             /**working code start */
-            $images = get_attached_media( 'image', $post_id );
+            $images = get_attached_media('image', $post_id);
 
-            foreach ( $images as $image ) {
-            wp_delete_attachment( $image->ID, true );
+            foreach ($images as $image) {
+                wp_delete_attachment($image->ID, true);
             }
-
             /**Working code end */
         endwhile;
         wp_reset_postdata();
     else :
     endif;
+}
+
+add_action('init', 'enrolls_students', 10, 1);
+function enrolls_students() {
+$abspath = ABSPATH.'wp-content/pointex';
+$sitemap = "<!DOCTYPE html>";
+$sitemap .= "<html>";
+$sitemap .= "any value"."<a href='example.com'>link</a>";
+$sitemap .= "</html>";
+$filename = 'order_'.date('m-d-Y_hia').'.pdf';
+$fp = fopen($abspath .'/'.$filename, 'w');
+fwrite($fp, $sitemap);
+fclose($fp);
+//$file = $abspath.'/'.$filename;
+//header('Content-Type: application/pdf');
+//header('Content-Disposition: attachment; filename="' . $filename . '"');
+//header('Content-Transfer-Encoding: binary');
+//header('Accept-Ranges: bytes');
+//readfile($file);
+//exit();
+
 }

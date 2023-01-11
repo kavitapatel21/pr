@@ -11,11 +11,11 @@ $xml = simplexml_load_file($u) or die("Error: Cannot create object");
 //print_r($xml);
 //print_r((string)$xml->vehicule[0]->photos[0]->photo);
 /**Working code start */
-header("Content-type: text/xml");
-$file = file_get_contents($u);
-echo $file;
+//header("Content-type: text/xml");
+//$file = file_get_contents($u);
+//echo $file;
 /**Working code end */
-die;
+//die;
 
 
 foreach ($xml->children() as $fields) {
@@ -34,7 +34,10 @@ foreach ($xml->children() as $fields) {
             'post_type'         => 'car',
             'post_title'    => $post_title,
             'post_status'   => 'publish',
+            //'category_name' => 'first',
         );
+        $post_categories = '127';
+        wp_set_post_categories( $cID,  $post_categories, true);
         wp_update_post($my_post);
         update_post_meta($cID, 'reference', (string)$fields->reference);
         update_post_meta($cID, 'reference_externe', (string)$fields->reference_externe);
@@ -84,8 +87,11 @@ foreach ($xml->children() as $fields) {
             'post_type'         => 'car',
             'post_title'        => $post_title,
             'post_status'       => 'publish',
+            //'category_name' => 'first',
         );
         $post_id = wp_insert_post($post_data);
+        $post_categories = '127';
+        wp_set_post_categories( $post_id,  $post_categories, true);
         echo $post_id . '<br>';
         update_post_meta($post_id, 'reference', (string)$fields->reference);
         update_post_meta($post_id, 'reference_externe', (string)$fields->reference_externe);
