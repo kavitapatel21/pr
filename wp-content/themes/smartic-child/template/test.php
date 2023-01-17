@@ -10,7 +10,7 @@ get_header();
 <?php 
 echo "here";
 echo "<br>";
-echo customfn();
+customfnction();//Call Custom function
 //wp_schedule_single_event( 1000, 'my_new_event');
 
 get_footer();

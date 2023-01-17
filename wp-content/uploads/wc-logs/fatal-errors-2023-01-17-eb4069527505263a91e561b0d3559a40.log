@@ -1,0 +1,56 @@
+2023-01-17T07:07:16+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\pr\wp-content\themes\smartic-child\functions.php on line 324
+
+2023-01-17T08:06:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_submenu_page(), 1 passed in C:\xampp\htdocs\pr\wp-content\themes\smartic-child\functions.php on line 324 and exactly 2 expected in C:\xampp\htdocs\pr\wp-admin\includes\plugin.php:1781
+Stack trace:
+#0 C:\xampp\htdocs\pr\wp-content\themes\smartic-child\functions.php(324): remove_submenu_page('admin.php?page=...')
+#1 C:\xampp\htdocs\pr\wp-includes\class-wp-hook.php(307): check_user_role('')
+#2 C:\xampp\htdocs\pr\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\pr\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\pr\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#5 C:\xampp\htdocs\pr\wp-admin\menu.php(394): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pr\wp-admin\admin.php(158): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\pr\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\pr\wp-admin\includes\plugin.php on line 1781
+
+2023-01-17T08:15:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_submenu_page(), 1 passed in C:\xampp\htdocs\pr\wp-content\themes\smartic-child\functions.php on line 323 and exactly 2 expected in C:\xampp\htdocs\pr\wp-admin\includes\plugin.php:1781
+Stack trace:
+#0 C:\xampp\htdocs\pr\wp-content\themes\smartic-child\functions.php(323): remove_submenu_page('')
+#1 C:\xampp\htdocs\pr\wp-includes\class-wp-hook.php(307): check_user_role('')
+#2 C:\xampp\htdocs\pr\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\pr\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\pr\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#5 C:\xampp\htdocs\pr\wp-admin\menu.php(394): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pr\wp-admin\admin.php(158): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\pr\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\pr\wp-admin\includes\plugin.php on line 1781
+
+2023-01-17T08:16:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_submenu_page(), 1 passed in C:\xampp\htdocs\pr\wp-content\themes\smartic-child\functions.php on line 323 and exactly 2 expected in C:\xampp\htdocs\pr\wp-admin\includes\plugin.php:1781
+Stack trace:
+#0 C:\xampp\htdocs\pr\wp-content\themes\smartic-child\functions.php(323): remove_submenu_page('edit.php?post_t...')
+#1 C:\xampp\htdocs\pr\wp-includes\class-wp-hook.php(307): check_user_role('')
+#2 C:\xampp\htdocs\pr\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\pr\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\pr\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#5 C:\xampp\htdocs\pr\wp-admin\menu.php(394): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pr\wp-admin\admin.php(158): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\pr\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\pr\wp-admin\includes\plugin.php on line 1781
+
+2023-01-17T08:16:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_submenu_page(), 1 passed in C:\xampp\htdocs\pr\wp-content\themes\smartic-child\functions.php on line 323 and exactly 2 expected in C:\xampp\htdocs\pr\wp-admin\includes\plugin.php:1781
+Stack trace:
+#0 C:\xampp\htdocs\pr\wp-content\themes\smartic-child\functions.php(323): remove_submenu_page('edit.php?post_t...')
+#1 C:\xampp\htdocs\pr\wp-includes\class-wp-hook.php(307): check_user_role('')
+#2 C:\xampp\htdocs\pr\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\pr\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\pr\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#5 C:\xampp\htdocs\pr\wp-admin\menu.php(394): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\pr\wp-admin\admin.php(158): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\pr\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\pr\wp-admin\includes\plugin.php on line 1781
+
+2023-01-17T08:36:03+00:00 CRITICAL syntax error, unexpected 'edit' (T_STRING), expecting ')' in C:\xampp\htdocs\pr\wp-content\themes\smartic-child\functions.php on line 319
+

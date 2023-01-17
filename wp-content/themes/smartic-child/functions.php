@@ -4,6 +4,8 @@
  * Theme functions and definitions.
  */
 
+use function WPML\FP\Strings\remove;
+
 add_action('wp_head', 'header_scripts');
 function header_scripts()
 {
@@ -41,9 +43,6 @@ function enroll_student($order_id)
     $order_total = $order_data['total'];
     $order_total_tax = $order_data['total_tax'];
     $order_total_gross = $order_total - $order_total_tax;
-
-
-
 
     $sitemap = '<?xml version="1.0" encoding="utf-8"?>' . "\n";
     $abspath = ABSPATH . 'wp-content/pointex';
@@ -258,7 +257,6 @@ function create_custom_post()
 
             /**working code start */
             $images = get_attached_media('image', $post_id);
-
             foreach ($images as $image) {
                 wp_delete_attachment($image->ID, true);
             }
@@ -269,8 +267,8 @@ function create_custom_post()
     endif;
 }
 
-add_action('init', 'enrolls_students', 10, 1);
-function enrolls_students() {
+//add_action('init', 'enrolls_students', 10, 1);
+/**function enrolls_students() {
 $abspath = ABSPATH.'wp-content/pointex';
 $sitemap = "<!DOCTYPE html>";
 $sitemap .= "<html>";
@@ -280,6 +278,7 @@ $filename = 'order_'.date('m-d-Y_hia').'.pdf';
 $fp = fopen($abspath .'/'.$filename, 'w');
 fwrite($fp, $sitemap);
 fclose($fp);
+
 //$file = $abspath.'/'.$filename;
 //header('Content-Type: application/pdf');
 //header('Content-Disposition: attachment; filename="' . $filename . '"');
@@ -288,4 +287,47 @@ fclose($fp);
 //readfile($file);
 //exit();
 
+}*/
+
+
+function customfnction()
+{
+    echo "Custom Function Called";
 }
+
+
+function check_user_role()
+{
+    global $current_user; //get the current user
+    //echo $current_user->roles[0]; //display the current user's role
+    if ($current_user->roles[0] == 'shop_manager') {
+        //echo 'HERE';
+        //die;
+        //Syntax : remove_menu_page('page_slug'); //For example
+        remove_menu_page('index.php');                  //Dashboard
+        //remove_menu_page('jetpack');                  //Jetpack* 
+        remove_menu_page('edit.php');                   //Posts
+        remove_menu_page('upload.php');                 //Media
+        remove_menu_page('edit.php?post_type=page');    //Pages
+        remove_menu_page('edit-comments.php');          //Comments
+        remove_menu_page('themes.php');                 //Appearance
+        //remove_menu_page('plugins.php');                //Plugins
+        remove_menu_page('users.php');                  //Users
+        remove_menu_page('tools.php');                  //Tools
+        remove_menu_page('options-general.php');        //Settings
+        remove_menu_page('edit.php?post_type=elementor_library');//elementor template options(edit.php?post_type=elementor_library&tabs_group=library)
+        remove_menu_page('edit.php?tabs_group=library');//elementor template option(edit.php?post_type=elementor_library&tabs_group=library)
+        remove_menu_page('edit.php?post_type=car'); //custom post car type
+        remove_menu_page('edit.php?post_type=custompost'); //custom post type
+        //remove_menu_page('admin.php');
+        remove_menu_page('ai1wm_export'); //Remove All-in-one wp migration plugin(admin.php?page=ai1wm_export)
+        remove_menu_page('nirweb_ticket_manage_tickets'); //ticket management plugin(admin.php?page=nirweb_ticket_manage_tickets)
+
+        //remove_menu_page('edit.php','edit.php?post_type=htportfolio_gallery'); //portfolio plugin(edit.php?post_type=htportfolio_gallery)
+        //remove_menu_page('edit.php','edit.php?post_type=ht_portfolios'); //portfolio plugin(edit.php?post_type=ht_portfolios)
+        //remove_menu_page('ht_portfolios');
+        //remove_menu_page('edit.php?post_type=ht_portfolios');
+        //remove_menu_page('edit.php?post_type=htportfolio_gallery');
+    }
+}
+add_action('admin_menu', 'check_user_role');

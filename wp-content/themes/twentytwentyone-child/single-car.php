@@ -333,6 +333,7 @@ while (have_posts()) :
         </div>
 
         <div class="product-detail" id="product-detail">
+          <h2 class="tst" id="tst">Hello!...</h2>
           <h2>about this item: </h2>
           <p><?php the_content(); ?></p>
           <ul>
@@ -347,6 +348,19 @@ while (have_posts()) :
             <li>Puissance_fiscale: <span><?php echo get_post_meta($post->ID, 'puissance_fiscale', true); ?></span></li>
             <li>Prix_neuf: <span><?php echo get_post_meta($post->ID, 'prix_neuf', true); ?></span></li>
           </ul>
+
+          <?php
+          foreach ($str as $src) {
+            $url = wp_get_attachment_image_src($src, $size = 'thumbnail');
+          ?>
+            <div class="img-item">
+              <a href="#" data-id="1">
+                <img src="<?php echo $url[0]; ?>" alt="shoe image">
+              </a>
+            </div>
+          <?php
+          }
+          ?>
         </div>
 
         <div class="purchase-info">
@@ -418,6 +432,7 @@ endwhile; // End of the loop.
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha256-c9vxcXyAG4paArQG3xk6DjyW/9aHxai2ef9RpMWO44A=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.min.js"></script>
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
@@ -444,8 +459,9 @@ endwhile; // End of the loop.
   window.addEventListener('resize', slideImage);
 </script>
 <script>
-  //Download pdf
-  var doc = new jsPDF();
+  //Download pdf 
+  /**Working code START */
+  /**var doc = new jsPDF();
   var specialElementHandlers = {
     '#editor': function(element, renderer) {
       return true;
@@ -453,20 +469,40 @@ endwhile; // End of the loop.
   };
 
   $('#GetFile').on('click', function() {
+    $("#tst").remove(); //To hide element in pdf from div(This element will not shown in pdf)
     doc.fromHTML($('#product-detail').html(), 15, 15, {
       'width': 170,
       'elementHandlers': specialElementHandlers
     });
     doc.save('sample-file.pdf');
-  });
-
-
-  /**$('#GetFile').click(function () {
-      domtoimage.toPng(document.getElementById('product-detail'))
-        .then(function (blob) {
-            var pdf = new jsPDF('l', 'pt', [$('#product-detail').width(), $('#product-detail').height()]);
-            pdf.addImage(blob, 'PNG', 0, 0, $('#product-detail').width(), $('#product-detail').height());
-            pdf.save("test.pdf");
-        });
   });*/
+  /**Working code END */
+
+  /**$('#GetFile').click(function() {
+    domtoimage.toPng(document.getElementById('product-detail'))
+      .then(function(blob) {
+        var blob = canvas.toDataURL("image/jpeg", 1.0);
+        var pdf = new jsPDF('l', 'pt', [$('#product-detail').width(), $('#product-detail').height()]);
+        pdf.addImage(blob, 'PNG', 0, 0, $('#product-detail').width(), $('#product-detail').height());
+        pdf.save("test.pdf");
+      });
+  });*/
+
+  /**PDF download with image START*/
+  $('#GetFile').click(function() {
+    domtoimage.toPng(document.getElementById('product-detail'))
+    .then(function(dataUrl) {
+      var doc = new jsPDF('p', 'pt', 'a4');
+      var img = new Image();
+      img.src = dataUrl;
+      img.onload = function() {
+        doc.addImage(img, 'PNG', 10, 20);
+        doc.save('filename.pdf');
+      };
+    })
+    .catch(function(error) {
+      console.error('oops, something went wrong!', error);
+    });
+  });
+  /**PDF download with image END */
 </script>
