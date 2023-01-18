@@ -307,27 +307,68 @@ function check_user_role()
         remove_menu_page('index.php');                  //Dashboard
         //remove_menu_page('jetpack');                  //Jetpack* 
         remove_menu_page('edit.php');                   //Posts
+        remove_menu_page('edit-tags.php?taxonomy=category'); //Posts
         remove_menu_page('upload.php');                 //Media
         remove_menu_page('edit.php?post_type=page');    //Pages
         remove_menu_page('edit-comments.php');          //Comments
         remove_menu_page('themes.php');                 //Appearance
-        //remove_menu_page('plugins.php');                //Plugins
+        remove_menu_page('plugins.php');                //Plugins
         remove_menu_page('users.php');                  //Users
         remove_menu_page('tools.php');                  //Tools
         remove_menu_page('options-general.php');        //Settings
-        remove_menu_page('edit.php?post_type=elementor_library');//elementor template options(edit.php?post_type=elementor_library&tabs_group=library)
-        remove_menu_page('edit.php?tabs_group=library');//elementor template option(edit.php?post_type=elementor_library&tabs_group=library)
+        remove_menu_page('edit.php?post_type=elementor_library'); //elementor template options(edit.php?post_type=elementor_library&tabs_group=library)
+        remove_menu_page('edit.php?tabs_group=library'); //elementor template option(edit.php?post_type=elementor_library&tabs_group=library)
         remove_menu_page('edit.php?post_type=car'); //custom post car type
         remove_menu_page('edit.php?post_type=custompost'); //custom post type
         //remove_menu_page('admin.php');
         remove_menu_page('ai1wm_export'); //Remove All-in-one wp migration plugin(admin.php?page=ai1wm_export)
         remove_menu_page('nirweb_ticket_manage_tickets'); //ticket management plugin(admin.php?page=nirweb_ticket_manage_tickets)
 
-        //remove_menu_page('edit.php','edit.php?post_type=htportfolio_gallery'); //portfolio plugin(edit.php?post_type=htportfolio_gallery)
-        //remove_menu_page('edit.php','edit.php?post_type=ht_portfolios'); //portfolio plugin(edit.php?post_type=ht_portfolios)
-        //remove_menu_page('ht_portfolios');
-        //remove_menu_page('edit.php?post_type=ht_portfolios');
-        //remove_menu_page('edit.php?post_type=htportfolio_gallery');
+        remove_menu_page('htportfolio_menu'); //HTportfolio
+        remove_menu_page('getwooplugins'); //Getwooplugin(swatches setting)
+        remove_menu_page('import.php'); //Tools
     }
 }
 add_action('admin_menu', 'check_user_role');
+
+
+add_action('init', 'my_setcookie');
+function my_setcookie()
+{
+    setcookie('my-name', 'my-value', time() + 3600, COOKIEPATH, COOKIE_DOMAIN);
+
+    /**if( ! session_id() ) {
+    session_start();
+}
+$_SESSION['session_var'] = "test_session";
+echo $_SESSION['session_var'];*/
+}
+
+
+add_action('woocommerce_after_order_notes', 'my_custom_checkout_field');
+
+function my_custom_checkout_field($checkout)
+{
+
+    echo '<div id="my_custom_checkout_field"><h2>' . __('My Field') . '</h2>';
+
+    woocommerce_form_field('my_field_name', array(
+        'type'          => 'text',
+        'class'         => array('my-field-class form-row-wide'),
+        'label'         => __('Fill in this field'),
+        'placeholder'   => __('Enter something'),
+    ), $checkout->get_value('my_field_name'));
+
+    echo '</div>';
+}
+/**
+ * Update the order meta with field value
+ */
+add_action('woocommerce_checkout_update_order_meta', 'my_custom_checkout_field_update_order_meta');
+
+function my_custom_checkout_field_update_order_meta($order_id)
+{
+    if (!empty($_POST['my_field_name'])) {
+        update_post_meta($order_id, 'My Field', sanitize_text_field($_POST['my_field_name']));
+    }
+}
